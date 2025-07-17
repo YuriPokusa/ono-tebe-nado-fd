@@ -1,1 +1,365 @@
-/* место для вашего кода */
+header {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 184px 1fr;
+  align-items: center;
+  justify-content: center;
+  height: 293px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 133px;
+  padding-bottom: 138px;
+  padding-left: 50px;
+  align-content: center;
+}
+
+.header-links-list {
+  display: flex;
+  gap: 31px;
+  text-underline-offset: 3px;
+}
+
+.header_logo_image {
+  margin-left: 0px;
+  background-image: url(../images/logo-black.svg);
+  background-repeat: no-repeat;
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+  margin-left: 143px;
+  width: 240px;
+  height: 98px;
+}
+
+.header-links-list-item-no-bullit {
+  list-style: none;
+}
+
+.header-links-list-item {
+  list-style: circle;
+}
+
+.address_phone,
+.address_email {
+  text-underline-offset: 4px;
+}
+
+.main {
+max-height: 3028px; 
+}
+
+.cover {
+  margin-top: 0px;
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 165px;
+  word-spacing: 999px;
+  z-index: 0;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.6;
+  background-color: #000;
+
+}
+
+h1 {
+  font-size: 100px;
+  color: white;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
+.ono-tebe-nado_ono {
+  letter-spacing: 30px;
+  margin-left: 50px;
+}
+
+.ono-tebe-nado_tebe {
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+  margin-left: 34px;
+  letter-spacing: 30px;
+}
+
+.ono-tebe-nado_nado {
+  display: block;
+  margin-top: 15px;
+  margin-right: 19px;
+  text-align: end;
+  letter-spacing: 30px;
+}
+.header__menu {
+  display: flex;
+  margin-bottom: 2px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.description {
+  display: grid;
+  grid-template-columns: 3fr min-content;
+  margin-top: 120px;
+}
+
+.subtitle {
+text-transform: uppercase;  
+font-size: 22px;
+  color: white;
+  word-spacing: 19px;
+  margin-left: 50px;
+}
+
+button {
+  height: 51px;
+  width: 256px;
+  margin-left: 50px;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 50px;
+  margin-top: -12px;
+  border: 1px solid white;
+  background: transparent;
+}
+/*_____карточки начало_____*/
+.lots {
+  margin-top: 180px;
+  min-height: 723px;
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: white;
+}
+
+.lots_title {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /*color: black;*/
+  margin-left: 40px;
+}
+
+.lots_cards_list {
+  width: 100%;
+  min-height: 596px;
+  display: flex;	
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-bottom: 30px;
+  margin-top: 27px;
+  gap: 25px;
+  align-self: stretch;
+}
+
+.lots_cards_list_item {
+  width: 334px;
+  height: 596px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.lots_content {
+  position: relative;
+  margin-top: 33px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 100%;
+  text-decoration: none;
+}
+
+.lots_cards_list_item_title {
+  height: 100%;
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+  align-items: center;
+  margin-top: 16px;
+  text-transform: uppercase;
+}
+
+.card_text {
+    height: 100%;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+margin-bottom: 80px;
+}
+
+.lots_cards_list_item_film {
+  background-image: url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.lots_cards_list_item_book {
+  background-image: url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.lots_cards_list_item_pictures {
+  background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+.lots_link {
+margin-left: 40px;
+margin-top: 30px;
+font-size: 20px;
+font-weight: 400;
+}
+/*____карточки конец____*/
+.about {
+  display: grid;
+  grid-template-columns: 358px 1fr;
+  gap: -4px;
+}
+
+.about_logo {
+  margin-top: 155px;
+  margin-left: 71px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+}
+
+.about_logo_img {
+background: url(../images/logo-white.svg);
+background-repeat: no-repeat;
+background-size: 148px 114px;
+width: 148px;
+height: 114px;
+}
+
+.about_content {
+  margin-top: 255px;
+  margin-left: 25px;
+  margin-right: 24px;
+}
+
+h3 {
+font-size: 40px;
+font-weight: 700;
+font-style: bold;
+text-transform: uppercase;
+}
+
+.about_content_text {
+margin-top: 100px;
+font-size: 20px;
+font-weight: 400;
+display: flex;
+flex-direction: column;
+gap: 24px;
+}
+
+.footer {
+  min-height: 180px;
+  margin-top: 180px;
+  display: grid;
+  grid-template-columns: 0.75fr 1fr 1fr;
+  align-self: start;
+  justify-self: start;
+}
+
+.footer_adress {
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: oblique;
+  line-height: 25px;
+}
+
+.footer-links-list {
+vertical-align: middle;
+list-style-type: none;
+align-items: center;
+text-align: center;
+font-size: 18px;
+font-weight: 400px;
+margin-left: 62px;
+margin-top: 0px;
+}
+
+.footer_social-list {
+  margin-left: 75px;
+  height: 48px;
+  width: 240px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
+  align-self: start;
+  justify-self: center;
+}
+
+.footer__social-list-item-yutube {
+width: 48px;
+height: 48px;  
+background: url(../images/yt.svg);
+}
+
+.footer__social-list-item-vk {
+width: 48px;
+height: 48px;  
+background: url(../images/vk.svg);
+}
+
+.footer__social-list-item {
+width: 48px;
+height: 48px;  
+background: url(../images/pinterest.svg);
+}
+
+a:active {
+list-style-type: none;
+}
+
+
+
+
+
+
