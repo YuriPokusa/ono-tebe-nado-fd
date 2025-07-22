@@ -31,7 +31,7 @@ header {
   justify-self: end;
 }
 
-.header-links-list-item-no-bullit {
+.links-list-item-no-bullit {
   list-style: none;
 }
 
@@ -39,7 +39,7 @@ header {
   list-style: circle;
 }
 
-.header__link_active {
+.header_link_active {
   list-style-type: none;
 }
 /*.address_phone,
@@ -289,6 +289,7 @@ h1 {
 
 .footer {
   margin-top: 180px;
+  padding-bottom: 82px;
   display: grid;
   grid-template-columns: 0.75fr 1fr 1fr;
   align-self: start;
@@ -312,6 +313,10 @@ h1 {
   font-weight: 400px;
   margin-left: 175px;
   margin-top: 0px;
+  list-style-type: none;
+}
+
+.footer_link_active {
   list-style-type: none;
 }
 
@@ -347,9 +352,7 @@ h1 {
   text-underline-offset: 5px;
 }
 
-a {
-  display: block;
-}
+
 
 
 
